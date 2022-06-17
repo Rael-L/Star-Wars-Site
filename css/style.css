@@ -1,0 +1,226 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;  
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../imagens/star.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 15px;
+	font-family: arial, helvetica, sans-serif;
+}
+
+#geral{
+	background-color: black ;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#cabecalho img{
+	margin: 10px;
+	display: block;
+	margin: 0 auto;
+}
+
+#menu{
+	text-align: center; 
+	background-color: black;
+}
+
+#menu li{
+	display:inline-block; 
+}
+
+#menu li a{
+	text-decoration: none; 
+	font-weight: 700;  
+	color: white;
+	text-transform: uppercase; 
+	padding: 10px;
+	display: block; 
+	transition: all .3s linear;  
+}
+
+#menu li a:hover{ 
+	color: rgb(245, 229, 11);
+	color: rgb(245, 229, 11);
+}
+#banners-topo img {
+	width: 100%;
+	height: 550px;
+	margin-top: 20px;
+}
+
+#corpo h1{
+	color: white;
+	font-family: cursive;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+#conteudo {
+	background-color: black;
+	width: 100%;
+	float: left;    
+	padding: 30px;
+}
+
+#conteudo #destaques div{
+	width: 30%;
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 5%;
+}
+
+#conteudo #destaques div:last-child{
+	margin-right: 0;
+}
+
+#conteudo #destaques div img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#conteudo #destaques div a{
+	font-size: 12px;
+	color: white;
+	text-decoration: none; 
+}
+
+#conteudo #destaques div a:hover{
+	color: #fcf81e;
+	
+}
+
+#sobre{
+	padding-top: 20px;
+	clear: both; 
+	font-family: Arial;
+	
+}
+
+#sobre img{
+	width: 320px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	float: left;
+	margin-right: 10px;
+	background-size: 100%;
+}
+
+#sobre p{
+	text-align: ;
+	color: rgb(219, 206, 23);
+	font-size: 18px;
+	padding: 9px;
+	margin-top: 12px;
+}
+
+#sobre h2{
+	color: black;
+	
+}
+
+#rodape{
+	width: 100%;
+	clear: both;
+	background-color: black;
+	padding: 20px ;
+	overflow: hidden;	
+	
+}
+
+#span{
+	color: gold;
+	font-size: 12px;
+	font-family: Arial;
+	float: left;
+	width: 600px;
+	margin-top: 40px;
+}
+
+
+#rodape img{
+	width: 130px;
+	display: block;
+	margin: 0 auto;
+	float: right;
+	padding-right: 10px;
+}
+
+
+#caixa{
+	text-align: center;
+	width: 100%;
+	background-color: black;
+	overflow: hidden;
+	font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border:solid 1px;
+	border-radius:20px;
+	border-color: gold;
+
+}
+
+
+#perso{
+	background-color: grey;
+	font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	
+}
+
+.internas h1{
+	background-color: grey;
+	font-family:  cursive;
+}
+
+.internas h2{
+	margin: 20px 0 5px;
+	background-color: black;
+	font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	clear: both;
+	border:solid 1px;
+    border-radius:0px 20px 0px 20px;
+	border-color: gold;
+	
+
+	
+}
+
+.internas p{
+	padding-top: 3px;
+	font-family: arial;
+	text-align: justify;
+	font-size: 18px;
+	color: rgb(219, 206, 23);
+	overflow: hidden;
+	margin-top: 35px;
+	margin-right: 50px;
+	padding-left: 20px;
+	
+}
+
+.internas img{
+	width: 300px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	margin-right: 10px;
+	float: left;
+}
+
+.internas iframe{
+	width: 500px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	margin-right: 10px;
+	float: left;
+}
+
+
+
